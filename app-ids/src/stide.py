@@ -257,7 +257,7 @@ def compare(a,b):
 
 client = mqtt.Client()
 parse_config()
-if self.validate_config() != True:
+if validate_config() != True:
     logging.critical("Configuration invalid.")
     raise SystemExit()
 client.on_connect = on_connect
