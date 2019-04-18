@@ -31,7 +31,7 @@ RDEPENDS_${PN} = "\
 		  strace"
 
 SRC_URI = "\
-	   git://github.com/daschubert/kuksa.invehicle.git;protocol=https \
+	   git://github.com/eclipse/kuksa.invehicle.git;protocol=https;\
 	   file://syscall_tracer.service \
 	   file://stide_syscall_formatter.service \
 	   file://stide.service"
